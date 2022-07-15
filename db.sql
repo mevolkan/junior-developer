@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `product` (
+    sku INT NOT NULL,
+    name VARCHAR(256)  NOT NULL,
+    price INT NOT NULL,
+    attribute VARCHAR(256)  NOT NULL,
+    PRIMARY KEY (`sku`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
